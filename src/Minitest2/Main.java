@@ -13,5 +13,15 @@ public class Main {
             Material thit6 = new Meat("6","bo",LocalDate.parse("2024-10-30"),3,30);
 
             Scanner scanner = new Scanner(System.in);
-}
+            Material[] material = {bot1, bot2, bot3, thit4, thit5, thit6};
+            double total = 0;
+            for (Material book : material ) {
+
+            }
+            System.out.println("Tổng giá tiền các cuốn sách = " + total);
+
+
+
+
+        }
 }
